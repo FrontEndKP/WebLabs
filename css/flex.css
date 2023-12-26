@@ -1,0 +1,38 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    margin: 30px auto;
+    width: 900px;
+    height: 600px;
+    background: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+#content {
+    width: 600px;
+    height: 400px;
+    background-color: powderblue;
+}
+
+#bottom {
+    width: 900px;
+    height: 100px;
+    background-color: blue;
+}
+
+#footer {
+    width: 900px;
+    height: 100px;
+    background-color: yellow;
+}
